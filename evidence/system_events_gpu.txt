@@ -1,0 +1,4094 @@
+﻿
+
+TimeCreated      : 2026-10-16 오후 1:58:14
+Id               : 1001
+ProviderName     : Microsoft-Windows-WER-SystemErrorReporting
+LevelDisplayName : Error
+Message          : The computer has rebooted from a bugcheck.  The bugcheck was: 0x00000133 (0x0000000000000000, 0x0000
+                   000000000500, 0x0000000000000500, 0xfffff80582dc53c8). A dump was saved in: C:\WINDOWS\MEMORY.DMP. R
+                   eport Id: 30c0243b-a27a-4372-b67b-5cb7b9b3ed09.
+
+TimeCreated      : 2026-10-16 오후 1:58:09
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-16 오후 1:57:58
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-16 오후 1:57:58
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-16 오후 1:57:55
+Id               : 41
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Critical
+Message          : The system has rebooted without cleanly shutting down first. This error could be caused if the syste
+                   m stopped responding, crashed, or lost power unexpectedly.
+
+TimeCreated      : 2026-10-16 오후 1:57:55
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-16 오후 1:21:36
+Id               : 1019
+ProviderName     : Microsoft-Windows-WER-SystemErrorReporting
+LevelDisplayName : Error
+Message          : The computer has rebooted from a bugcheck.  Possibly related driver: noskp64.sys.
+
+TimeCreated      : 2026-10-16 오후 1:21:36
+Id               : 1001
+ProviderName     : Microsoft-Windows-WER-SystemErrorReporting
+LevelDisplayName : Error
+Message          : The computer has rebooted from a bugcheck.  The bugcheck was: 0x000000ce (0xfffff8056ca03525, 0x0000
+                   000000000010, 0xfffff8056ca03525, 0x0000000000000000). A dump was saved in: C:\WINDOWS\MEMORY.DMP. R
+                   eport Id: 0aec4e20-df56-4699-bc06-d6580f2ea849.
+
+TimeCreated      : 2026-10-16 오후 1:21:30
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-16 오후 1:21:19
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-16 오후 1:21:19
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-16 오후 1:21:16
+Id               : 41
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Critical
+Message          : The system has rebooted without cleanly shutting down first. This error could be caused if the syste
+                   m stopped responding, crashed, or lost power unexpectedly.
+
+TimeCreated      : 2026-10-16 오후 1:21:16
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-15 오전 8:22:00
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-10-15 오전 8:21:58
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-15 오전 8:21:46
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-15 오전 8:21:46
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-15 오전 8:21:42
+Id               : 578
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has detected a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-15 오전 8:21:42
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-15 오전 8:21:04
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎14T23:21:04.527471100Z.
+
+TimeCreated      : 2026-10-15 오전 8:21:04
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-15 오전 8:21:02
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-15 오전 8:20:03
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-10-15 오전 8:19:54
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-15 오전 8:19:42
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-15 오전 8:19:42
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-15 오전 8:19:38
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-15 오전 8:18:59
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎14T23:18:59.173224900Z.
+
+TimeCreated      : 2026-10-15 오전 8:18:58
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-15 오전 8:18:56
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-14 오후 4:06:06
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-10-14 오후 4:06:05
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-14 오후 4:05:52
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-14 오후 4:05:52
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-14 오후 4:05:49
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-14 오후 4:05:10
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎14T07:05:10.708163500Z.
+
+TimeCreated      : 2026-10-14 오후 4:05:10
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-14 오후 4:05:08
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-14 오후 2:33:16
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-10-14 오후 2:33:15
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-14 오후 2:33:02
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-14 오후 2:33:02
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-14 오후 2:32:59
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-14 오후 2:32:24
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎14T05:32:24.503565700Z.
+
+TimeCreated      : 2026-10-14 오후 2:32:24
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-14 오후 2:32:22
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-14 오전 10:24:41
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-14 오전 10:24:27
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-14 오전 10:24:26
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-14 오전 10:24:25
+Id               : 41
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Critical
+Message          : The system has rebooted without cleanly shutting down first. This error could be caused if the syste
+                   m stopped responding, crashed, or lost power unexpectedly.
+
+TimeCreated      : 2026-10-14 오전 10:24:25
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-14 오전 10:21:12
+Id               : 17
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Warning
+Message          : A corrected hardware error has occurred.
+                   
+                   Component: PCI Express Root Port
+                   Error Source: Advanced Error Reporting (PCI Express)
+                   
+                   Primary Bus:Device:Function: 0x0:0x1:0x0
+                   Secondary Bus:Device:Function: 0x0:0x0:0x0
+                   Primary Device Name:PCI\VEN_8086&DEV_460D&SUBSYS_13BA1462&REV_02
+                   Secondary Device Name:
+
+TimeCreated      : 2026-10-14 오전 10:21:11
+Id               : 17
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Warning
+Message          : A corrected hardware error has occurred.
+                   
+                   Component: PCI Express Root Port
+                   Error Source: Advanced Error Reporting (PCI Express)
+                   
+                   Primary Bus:Device:Function: 0x0:0x1:0x0
+                   Secondary Bus:Device:Function: 0x0:0x0:0x0
+                   Primary Device Name:PCI\VEN_8086&DEV_460D&SUBSYS_13BA1462&REV_02
+                   Secondary Device Name:
+
+TimeCreated      : 2026-10-13 오전 8:54:30
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-13 오전 8:54:17
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-13 오전 8:54:17
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-13 오전 8:54:14
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-13 오전 8:53:54
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎12T23:53:54.210840500Z.
+
+TimeCreated      : 2026-10-13 오전 8:53:54
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-13 오전 8:53:52
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-13 오전 12:17:37
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-13 오전 12:17:24
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-13 오전 12:17:24
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-13 오전 12:17:23
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-13 오전 12:17:03
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎12T15:17:03.995380300Z.
+
+TimeCreated      : 2026-10-13 오전 12:17:03
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-13 오전 12:17:01
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-13 오전 12:14:03
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-13 오전 12:13:51
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-13 오전 12:13:51
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-13 오전 12:13:48
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-13 오전 12:13:29
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎12T15:13:29.662616600Z.
+
+TimeCreated      : 2026-10-13 오전 12:13:29
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-13 오전 12:13:27
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-13 오전 12:03:02
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-13 오전 12:02:50
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-13 오전 12:02:50
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-13 오전 12:02:46
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-13 오전 12:02:26
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎12T15:02:26.595890700Z.
+
+TimeCreated      : 2026-10-13 오전 12:02:26
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-13 오전 12:02:24
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-12 오후 11:07:08
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-12 오후 11:06:55
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-12 오후 11:06:54
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-12 오후 11:06:53
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-12 오후 11:06:35
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎12T14:06:35.509446500Z.
+
+TimeCreated      : 2026-10-12 오후 11:06:35
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-12 오후 11:06:33
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-12 오후 11:06:05
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-12 오후 11:05:59
+Id               : 172
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Connectivity state in standby: Disconnected, Reason: NIC compliance
+
+TimeCreated      : 2026-10-12 오후 11:05:59
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-12 오후 10:31:13
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎12T13:31:13.875921400Z.
+
+TimeCreated      : 2026-10-12 오후 10:31:13
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-12 오후 10:31:11
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-12 오후 7:36:38
+Id               : 105
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Power source change.
+
+TimeCreated      : 2026-10-12 오후 7:35:34
+Id               : 105
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Power source change.
+
+TimeCreated      : 2026-10-10 오후 1:44:59
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-10-10 오후 1:44:58
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-10 오후 1:44:45
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-10 오후 1:44:44
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-10 오후 1:44:43
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-10 오후 1:44:06
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎10T04:44:06.550071600Z.
+
+TimeCreated      : 2026-10-10 오후 1:44:06
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-10 오후 1:44:04
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-09 오후 7:30:46
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-10-09 오후 7:30:44
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-09 오후 7:30:31
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-09 오후 7:30:31
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-09 오후 7:30:30
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-09 오후 7:29:53
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎09T10:29:53.583843300Z.
+
+TimeCreated      : 2026-10-09 오후 7:29:53
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-09 오후 7:29:51
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-09 오전 11:38:50
+Id               : 105
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Power source change.
+
+TimeCreated      : 2026-10-09 오전 11:37:45
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 1 to 3.
+                   
+                   Reason InputPoUserPresent 
+                   
+                   BootId: 183
+
+TimeCreated      : 2026-10-09 오전 11:37:45
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Input Touchpad.
+
+TimeCreated      : 2026-10-09 오전 11:37:41
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Idle Timeout.
+
+TimeCreated      : 2026-10-09 오전 11:37:41
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 0 to 1.
+                   
+                   Reason SessionUnlock 
+                   
+                   BootId: 183
+
+TimeCreated      : 2026-10-09 오전 11:37:39
+Id               : 105
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Power source change.
+
+TimeCreated      : 2026-10-08 오후 5:33:29
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-08 오후 5:33:18
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-08 오후 5:33:18
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-08 오후 5:33:17
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-08 오후 5:29:47
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎08T08:29:47.527828900Z.
+
+TimeCreated      : 2026-10-08 오후 5:29:47
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-08 오후 5:29:39
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Shutdown Off 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-06 오후 9:06:03
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-10-06 오후 9:06:02
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-06 오후 9:05:50
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-06 오후 9:05:50
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-06 오후 9:05:47
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-06 오후 9:05:10
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎06T12:05:10.467454500Z.
+
+TimeCreated      : 2026-10-06 오후 9:05:10
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-06 오후 9:04:43
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-04 오후 5:39:26
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-10-04 오후 5:39:25
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-04 오후 5:39:12
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-04 오후 5:39:12
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-04 오후 5:39:09
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-04 오후 5:38:34
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎04T08:38:34.175490400Z.
+
+TimeCreated      : 2026-10-04 오후 5:38:34
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-04 오후 5:38:31
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-03 오후 7:30:36
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-10-03 오후 7:30:34
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-03 오후 7:30:21
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-03 오후 7:30:21
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-03 오후 7:30:20
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-03 오후 7:29:44
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎03T10:29:44.158526200Z.
+
+TimeCreated      : 2026-10-03 오후 7:29:43
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-03 오후 7:29:41
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-02 오후 3:36:17
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-02 오후 3:36:05
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-02 오후 3:36:04
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-02 오후 3:36:02
+Id               : 41
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Critical
+Message          : The system has rebooted without cleanly shutting down first. This error could be caused if the syste
+                   m stopped responding, crashed, or lost power unexpectedly.
+
+TimeCreated      : 2026-10-02 오후 3:36:02
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-02 오후 2:23:35
+Id               : 1019
+ProviderName     : Microsoft-Windows-WER-SystemErrorReporting
+LevelDisplayName : Error
+Message          : The computer has rebooted from a bugcheck.  Possibly related driver: nvlddmkm.sys.
+
+TimeCreated      : 2026-10-02 오후 2:23:35
+Id               : 1001
+ProviderName     : Microsoft-Windows-WER-SystemErrorReporting
+LevelDisplayName : Error
+Message          : The computer has rebooted from a bugcheck.  The bugcheck was: 0x00000116 (0xffffdc8ddbfed010, 0xffff
+                   f80028b4b450, 0xffffffffc000009a, 0x0000000000000004). A dump was saved in: C:\WINDOWS\MEMORY.DMP. R
+                   eport Id: e6d8e194-c849-4938-ba97-c16f727fb24f.
+
+TimeCreated      : 2026-10-02 오후 2:23:29
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-02 오후 2:23:17
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-02 오후 2:23:17
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-02 오후 2:23:15
+Id               : 41
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Critical
+Message          : The system has rebooted without cleanly shutting down first. This error could be caused if the syste
+                   m stopped responding, crashed, or lost power unexpectedly.
+
+TimeCreated      : 2026-10-02 오후 2:23:14
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-01 오후 4:00:07
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-01 오후 3:59:55
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-01 오후 3:59:55
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-01 오후 3:59:52
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-01 오후 3:59:33
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎01T06:59:33.453993300Z.
+
+TimeCreated      : 2026-10-01 오후 3:59:33
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-01 오후 3:59:31
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-10-01 오후 1:26:52
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 3 to 5.
+                   
+                   Reason InputHid 
+                   
+                   BootId: 176
+
+TimeCreated      : 2026-10-01 오후 1:26:52
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Input Mouse.
+
+TimeCreated      : 2026-10-01 오후 1:25:12
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: AC/DC Display Burst Suppressed.
+
+TimeCreated      : 2026-10-01 오후 1:25:12
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 1 to 3.
+                   
+                   Reason InputMouse 
+                   
+                   BootId: 176
+
+TimeCreated      : 2026-10-01 오후 1:25:12
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: AC/DC Display Burst Suppressed.
+
+TimeCreated      : 2026-10-01 오후 1:25:12
+Id               : 105
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Power source change.
+
+TimeCreated      : 2026-10-01 오후 1:19:41
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Idle Timeout.
+
+TimeCreated      : 2026-10-01 오후 1:19:41
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 0 to 1.
+                   
+                   Reason SessionUnlock 
+                   
+                   BootId: 176
+
+TimeCreated      : 2026-10-01 오후 1:19:40
+Id               : 105
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Power source change.
+
+TimeCreated      : 2026-10-01 오전 10:35:29
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-10-01 오전 10:35:17
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-01 오전 10:35:16
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-10-01 오전 10:35:14
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-10-01 오전 10:34:55
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎10‎-‎01T01:34:55.101278900Z.
+
+TimeCreated      : 2026-10-01 오전 10:34:55
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-10-01 오전 10:34:52
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-28 오후 9:26:39
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-28 오후 9:26:38
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-28 오후 9:26:28
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-28 오후 9:26:28
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-28 오후 9:26:25
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-28 오후 9:25:50
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎28T12:25:50.244040000Z.
+
+TimeCreated      : 2026-09-28 오후 9:25:50
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-28 오후 9:25:48
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-23 오전 8:05:48
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 6 to 7.
+                   
+                   Reason Unknown 
+                   
+                   BootId: 174
+
+TimeCreated      : 2026-09-23 오전 8:05:48
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Power Button.
+
+TimeCreated      : 2026-09-23 오전 3:29:06
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 5 to 6.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 174
+
+TimeCreated      : 2026-09-23 오전 3:29:06
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-23 오전 3:29:06
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 4 to 5.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 174
+
+TimeCreated      : 2026-09-23 오전 3:29:06
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-23 오전 3:28:46
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 3 to 4.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 174
+
+TimeCreated      : 2026-09-23 오전 3:28:45
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-23 오전 3:28:45
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 2 to 3.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 174
+
+TimeCreated      : 2026-09-23 오전 3:28:45
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-23 오전 1:57:04
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 1 to 2.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 174
+
+TimeCreated      : 2026-09-23 오전 1:57:04
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Screen Off Request.
+
+TimeCreated      : 2026-09-23 오전 1:57:04
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 0 to 1.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 174
+
+TimeCreated      : 2026-09-22 오후 11:14:16
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-22 오후 11:14:15
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-22 오후 11:14:02
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-22 오후 11:14:02
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-22 오후 11:13:59
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-22 오후 11:13:21
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎22T14:13:21.849863000Z.
+
+TimeCreated      : 2026-09-22 오후 11:13:21
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-22 오후 11:13:01
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-22 오전 7:23:34
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 4 to 5.
+                   
+                   Reason Unknown 
+                   
+                   BootId: 173
+
+TimeCreated      : 2026-09-22 오전 7:23:34
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Power Button.
+
+TimeCreated      : 2026-09-22 오전 6:10:23
+Id               : 172
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Connectivity state in standby: Connected, Reason: None
+
+TimeCreated      : 2026-09-22 오전 6:10:22
+Id               : 172
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Connectivity state in standby: Disconnected, Reason: NIC compliance
+
+TimeCreated      : 2026-09-22 오전 3:24:34
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 3 to 4.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 173
+
+TimeCreated      : 2026-09-22 오전 3:24:22
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-22 오전 3:24:22
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 2 to 3.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 173
+
+TimeCreated      : 2026-09-22 오전 3:24:22
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-22 오전 12:45:59
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 1 to 2.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 173
+
+TimeCreated      : 2026-09-22 오전 12:45:59
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Screen Off Request.
+
+TimeCreated      : 2026-09-22 오전 12:45:59
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 0 to 1.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 173
+
+TimeCreated      : 2026-09-21 오후 2:10:50
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-21 오후 2:10:49
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-21 오후 2:10:37
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-21 오후 2:10:37
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-21 오후 2:10:34
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-21 오후 2:09:57
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎21T05:09:57.597631100Z.
+
+TimeCreated      : 2026-09-21 오후 2:09:57
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-21 오후 2:09:49
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-18 오후 7:58:46
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-18 오후 7:58:45
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-18 오후 7:58:33
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-18 오후 7:58:33
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-18 오후 7:58:30
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-18 오후 7:57:53
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎18T10:57:53.068464200Z.
+
+TimeCreated      : 2026-09-18 오후 7:57:52
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-18 오후 7:57:25
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-16 오후 5:13:04
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-16 오후 5:13:02
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-16 오후 5:12:49
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-16 오후 5:12:49
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-16 오후 5:12:48
+Id               : 578
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has detected a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-16 오후 5:12:48
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-16 오후 5:12:12
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎16T08:12:12.282584800Z.
+
+TimeCreated      : 2026-09-16 오후 5:12:12
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-16 오후 5:12:10
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-16 오후 5:11:46
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-16 오후 5:11:44
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-16 오후 5:11:31
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-16 오후 5:11:31
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-16 오후 5:11:30
+Id               : 578
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has detected a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-16 오후 5:11:30
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-16 오후 5:10:55
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎16T08:10:55.262469900Z.
+
+TimeCreated      : 2026-09-16 오후 5:10:55
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-16 오후 5:10:53
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-16 오후 5:10:26
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-16 오후 5:10:22
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-16 오후 5:10:09
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-16 오후 5:10:09
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-16 오후 5:10:06
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-16 오후 5:09:29
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎16T08:09:29.512072600Z.
+
+TimeCreated      : 2026-09-16 오후 5:09:29
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-16 오후 5:09:27
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-15 오전 7:16:41
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 4 to 5.
+                   
+                   Reason Unknown 
+                   
+                   BootId: 168
+
+TimeCreated      : 2026-09-15 오전 7:16:41
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Power Button.
+
+TimeCreated      : 2026-09-15 오전 3:09:19
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 3 to 4.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 168
+
+TimeCreated      : 2026-09-15 오전 3:09:17
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-15 오전 3:09:17
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 2 to 3.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 168
+
+TimeCreated      : 2026-09-15 오전 3:09:17
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-15 오전 1:09:33
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 1 to 2.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 168
+
+TimeCreated      : 2026-09-15 오전 1:09:33
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Screen Off Request.
+
+TimeCreated      : 2026-09-15 오전 1:09:33
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 0 to 1.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 168
+
+TimeCreated      : 2026-09-14 오후 11:51:28
+Id               : 1019
+ProviderName     : Microsoft-Windows-WER-SystemErrorReporting
+LevelDisplayName : Error
+Message          : The computer has rebooted from a bugcheck.  Possibly related driver: nvlddmkm.sys.
+
+TimeCreated      : 2026-09-14 오후 11:51:28
+Id               : 1001
+ProviderName     : Microsoft-Windows-WER-SystemErrorReporting
+LevelDisplayName : Error
+Message          : The computer has rebooted from a bugcheck.  The bugcheck was: 0x00000116 (0xffffe08038adc010, 0xffff
+                   f8047780a3a0, 0xffffffffc000009a, 0x0000000000000004). A dump was saved in: C:\WINDOWS\MEMORY.DMP. R
+                   eport Id: bb0324c1-3148-478f-aeb2-3706a7a5ee0c.
+
+TimeCreated      : 2026-09-14 오후 11:51:25
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-14 오후 11:51:13
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-14 오후 11:51:13
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-14 오후 11:51:11
+Id               : 41
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Critical
+Message          : The system has rebooted without cleanly shutting down first. This error could be caused if the syste
+                   m stopped responding, crashed, or lost power unexpectedly.
+
+TimeCreated      : 2026-09-14 오후 11:51:11
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-14 오전 7:46:56
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-14 오전 7:46:45
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-14 오전 7:46:45
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-14 오전 7:46:44
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-14 오전 2:14:12
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎13T17:14:12.041495200Z.
+
+TimeCreated      : 2026-09-14 오전 2:14:11
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-14 오전 2:14:09
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Shutdown Off 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-13 오후 1:59:26
+Id               : 1019
+ProviderName     : Microsoft-Windows-WER-SystemErrorReporting
+LevelDisplayName : Error
+Message          : The computer has rebooted from a bugcheck.  Possibly related driver: nvlddmkm.sys.
+
+TimeCreated      : 2026-09-13 오후 1:59:26
+Id               : 1001
+ProviderName     : Microsoft-Windows-WER-SystemErrorReporting
+LevelDisplayName : Error
+Message          : The computer has rebooted from a bugcheck.  The bugcheck was: 0x00000116 (0xffff97834959a010, 0xffff
+                   f8017880a3a0, 0xffffffffc000009a, 0x0000000000000004). A dump was saved in: C:\WINDOWS\MEMORY.DMP. R
+                   eport Id: 49c1180f-71be-4abb-83f8-b6f123d6e345.
+
+TimeCreated      : 2026-09-13 오후 1:59:22
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-13 오후 1:59:10
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-13 오후 1:59:10
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-13 오후 1:59:09
+Id               : 41
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Critical
+Message          : The system has rebooted without cleanly shutting down first. This error could be caused if the syste
+                   m stopped responding, crashed, or lost power unexpectedly.
+
+TimeCreated      : 2026-09-13 오후 1:59:09
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-13 오전 10:22:55
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-13 오전 10:22:53
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-13 오전 10:22:40
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-13 오전 10:22:40
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-13 오전 10:22:39
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-13 오전 10:22:04
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎13T01:22:04.293833100Z.
+
+TimeCreated      : 2026-09-13 오전 10:22:04
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-13 오전 10:22:02
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-13 오전 8:11:58
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 6 to 7.
+                   
+                   Reason Unknown 
+                   
+                   BootId: 164
+
+TimeCreated      : 2026-09-13 오전 8:11:58
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Power Button.
+
+TimeCreated      : 2026-09-13 오전 3:43:09
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 5 to 6.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 164
+
+TimeCreated      : 2026-09-13 오전 3:43:04
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-13 오전 3:43:04
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 4 to 5.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 164
+
+TimeCreated      : 2026-09-13 오전 3:43:04
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-13 오전 3:11:17
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 3 to 4.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 164
+
+TimeCreated      : 2026-09-13 오전 3:11:16
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-13 오전 3:11:16
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 2 to 3.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 164
+
+TimeCreated      : 2026-09-13 오전 3:11:16
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-13 오전 1:52:53
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 1 to 2.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 164
+
+TimeCreated      : 2026-09-13 오전 1:52:53
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Screen Off Request.
+
+TimeCreated      : 2026-09-13 오전 1:52:53
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 0 to 1.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 164
+
+TimeCreated      : 2026-09-12 오후 3:09:13
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-12 오후 3:09:00
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-12 오후 3:09:00
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-12 오후 3:08:59
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-12 오후 3:08:39
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎12T06:08:39.383146300Z.
+
+TimeCreated      : 2026-09-12 오후 3:08:39
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-12 오후 3:08:37
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-10 오전 7:29:01
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 6 to 7.
+                   
+                   Reason Unknown 
+                   
+                   BootId: 163
+
+TimeCreated      : 2026-09-10 오전 7:29:01
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Power Button.
+
+TimeCreated      : 2026-09-10 오전 5:56:00
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 5 to 6.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 163
+
+TimeCreated      : 2026-09-10 오전 5:55:58
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-10 오전 5:55:58
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 4 to 5.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 163
+
+TimeCreated      : 2026-09-10 오전 5:55:58
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-10 오전 3:17:53
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 3 to 4.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 163
+
+TimeCreated      : 2026-09-10 오전 3:17:51
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-10 오전 3:17:51
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 2 to 3.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 163
+
+TimeCreated      : 2026-09-10 오전 3:17:51
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-10 오전 1:30:04
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 1 to 2.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 163
+
+TimeCreated      : 2026-09-10 오전 1:29:59
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Screen Off Request.
+
+TimeCreated      : 2026-09-10 오전 1:29:59
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 0 to 1.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 163
+
+TimeCreated      : 2026-09-09 오후 9:31:47
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-09 오후 9:31:45
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-09 오후 9:31:36
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-09 오후 9:31:35
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-09 오후 9:31:31
+Id               : 578
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has detected a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-09 오후 9:31:31
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-09 오후 9:30:56
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎09T12:30:56.215157200Z.
+
+TimeCreated      : 2026-09-09 오후 9:30:56
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-09 오후 9:30:54
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-09 오후 9:30:29
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-09 오후 9:30:28
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-09 오후 9:30:18
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-09 오후 9:30:18
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-09 오후 9:30:14
+Id               : 578
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has detected a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-09 오후 9:30:14
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-09 오후 9:29:36
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎09T12:29:36.686965500Z.
+
+TimeCreated      : 2026-09-09 오후 9:29:36
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-09 오후 9:29:34
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-09 오후 9:28:11
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-09 오후 9:28:03
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-09 오후 9:27:53
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-09 오후 9:27:52
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-09 오후 9:27:48
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-09 오후 9:27:09
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎09T12:27:09.771806800Z.
+
+TimeCreated      : 2026-09-09 오후 9:27:09
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-09 오후 9:27:07
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-08 오전 7:52:29
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 12 to 13.
+                   
+                   Reason Unknown 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 7:52:29
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Power Button.
+
+TimeCreated      : 2026-09-08 오전 6:49:01
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 11 to 12.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 6:48:47
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-08 오전 6:48:47
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 10 to 11.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 6:48:47
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-08 오전 3:11:40
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 9 to 10.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 3:11:38
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-08 오전 3:11:38
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 8 to 9.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 3:11:38
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-08 오전 2:33:46
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 7 to 8.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 2:33:46
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-08 오전 2:33:46
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 6 to 7.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 2:33:46
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-08 오전 2:31:25
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 5 to 6.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 2:31:25
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-08 오전 2:31:25
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 4 to 5.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 2:31:25
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-08 오전 2:03:42
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 3 to 4.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 2:03:40
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-08 오전 2:03:40
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 2 to 3.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 2:03:40
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-08 오전 1:48:24
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 1 to 2.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 1:48:24
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Screen Off Request.
+
+TimeCreated      : 2026-09-08 오전 1:48:24
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 0 to 1.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 160
+
+TimeCreated      : 2026-09-08 오전 1:42:46
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-08 오전 1:42:37
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-08 오전 1:42:37
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-08 오전 1:42:34
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-08 오전 1:42:07
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎07T16:42:07.713253400Z.
+
+TimeCreated      : 2026-09-08 오전 1:42:07
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-08 오전 1:42:05
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Shutdown Off 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-07 오전 7:10:24
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 7 to 8.
+                   
+                   Reason Unknown 
+                   
+                   BootId: 159
+
+TimeCreated      : 2026-09-07 오전 7:10:24
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Power Button.
+
+TimeCreated      : 2026-09-07 오전 3:40:47
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 6 to 7.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 159
+
+TimeCreated      : 2026-09-07 오전 3:40:38
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-07 오전 3:40:38
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 5 to 6.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 159
+
+TimeCreated      : 2026-09-07 오전 3:40:38
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-07 오전 12:44:30
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 4 to 5.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 159
+
+TimeCreated      : 2026-09-07 오전 12:44:30
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Screen Off Request.
+
+TimeCreated      : 2026-09-07 오전 12:44:30
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 3 to 4.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 159
+
+TimeCreated      : 2026-09-04 오전 12:31:05
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 1 to 3.
+                   
+                   Reason InputHid 
+                   
+                   BootId: 159
+
+TimeCreated      : 2026-09-04 오전 12:31:05
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Input Mouse.
+
+TimeCreated      : 2026-09-04 오전 12:31:05
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Screen Off Request.
+
+TimeCreated      : 2026-09-04 오전 12:31:05
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 0 to 1.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 159
+
+TimeCreated      : 2026-09-02 오후 9:24:02
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-02 오후 9:23:52
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-02 오후 9:23:52
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-02 오후 9:23:48
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-02 오후 9:23:07
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎02T12:23:07.445250600Z.
+
+TimeCreated      : 2026-09-02 오후 9:23:07
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-02 오후 9:23:00
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-02 오전 7:39:09
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 6 to 7.
+                   
+                   Reason Unknown 
+                   
+                   BootId: 158
+
+TimeCreated      : 2026-09-02 오전 7:39:09
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Power Button.
+
+TimeCreated      : 2026-09-02 오전 4:17:24
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 5 to 6.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 158
+
+TimeCreated      : 2026-09-02 오전 4:17:23
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-02 오전 4:17:23
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 4 to 5.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 158
+
+TimeCreated      : 2026-09-02 오전 4:17:23
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-02 오전 3:14:15
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 3 to 4.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 158
+
+TimeCreated      : 2026-09-02 오전 3:14:14
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-02 오전 3:14:14
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 2 to 3.
+                   
+                   Reason 16777220 
+                   
+                   BootId: 158
+
+TimeCreated      : 2026-09-02 오전 3:14:14
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: 16777220.
+
+TimeCreated      : 2026-09-02 오전 1:58:15
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 1 to 2.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 158
+
+TimeCreated      : 2026-09-02 오전 1:58:12
+Id               : 506
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is entering Modern Standby 
+                   
+                   Reason: Screen Off Request.
+
+TimeCreated      : 2026-09-02 오전 1:58:12
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 0 to 1.
+                   
+                   Reason FullWake 
+                   
+                   BootId: 158
+
+TimeCreated      : 2026-09-01 오후 9:30:29
+Id               : 3
+ProviderName     : Microsoft-Windows-WHEA-Logger
+LevelDisplayName : Information
+Message          : A hardware event has occurred. An informational record describing the condition is contained in the 
+                   data section of this event.
+
+TimeCreated      : 2026-09-01 오후 9:30:28
+Id               : 14
+ProviderName     : Microsoft-Windows-Wininit
+LevelDisplayName : Information
+Message          : Credential Guard configuration:
+                   
+                   Registry Configuration: 0x0
+                   Test Configuration: 0
+                   Auto Enablement: 0
+
+TimeCreated      : 2026-09-01 오후 9:30:18
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-01 오후 9:30:18
+Id               : 521
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : Active battery count change.
+
+TimeCreated      : 2026-09-01 오후 9:30:15
+Id               : 125
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : ACPI thermal zone \_TZ.THRM has been enumerated.             
+                   _PSV = 0K             
+                   _TC1 = 0             
+                   _TC2 = 0             
+                   _TSP = 0ms             
+                   _AC0 = 0K             
+                   _AC1 = 0K             
+                   _AC2 = 0K             
+                   _AC3 = 0K             
+                   _AC4 = 0K             
+                   _AC5 = 0K             
+                   _AC6 = 0K             
+                   _AC7 = 0K             
+                   _AC8 = 0K             
+                   _AC9 = 0K             
+                   _CRT = 373K             
+                   _HOT = 0K             
+                   minimum throttle = 0             
+                   _CR3 = 0K
+
+TimeCreated      : 2026-09-01 오후 9:29:38
+Id               : 13
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : Information
+Message          : The operating system is shutting down at system time ‎2026‎-‎09‎-‎01T12:29:38.768869500Z.
+
+TimeCreated      : 2026-09-01 오후 9:29:38
+Id               : 577
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system has prepared for a system initiated reboot from Active.
+
+TimeCreated      : 2026-09-01 오후 9:29:36
+Id               : 109
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The kernel power manager has initiated a shutdown transition.
+                   
+                   Action: Power Action Reboot 
+                   Event Code: 0x0 
+                   Reason: Kernel API
+
+TimeCreated      : 2026-09-01 오후 8:50:37
+Id               : 566
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system session has transitioned from 19 to 20.
+                   
+                   Reason Unknown 
+                   
+                   BootId: 157
+
+TimeCreated      : 2026-09-01 오후 8:50:37
+Id               : 507
+ProviderName     : Microsoft-Windows-Kernel-Power
+LevelDisplayName : Information
+Message          : The system is exiting Modern Standby 
+                   
+                   Reason: Power Button.
+
+
+
