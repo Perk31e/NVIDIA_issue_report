@@ -43,5 +43,5 @@ PROCESS_NAME: msedgewebview2.exe
 ## 환경
 - GPU: NVIDIA GeForce RTX 4060 Laptop (DriverVersion 32.0.16.1742, Date 2026-09-30/10-02) + Intel UHD(31.0.101.4314)
 - TDR 레지스트리 TdrLevel/TdrDelay/TdrDdiDelay: 전부 기본값(미설정)
-- 이벤트 로그: WER 1001 — 13:21 0xCE→MEMORY.DMP, 13:58 0x133→MEMORY.DMP(덮어씀). Kernel-Power 41(비정상 종료) 동반.
+- 이벤트 로그: WER 1001 — 13:58 0x133→MEMORY.DMP. 같은 날 다른(무관) bugcheck가 잇따라 MEMORY.DMP를 순차 덮어써 0x133만 전체덤프 잔존. Kernel-Power 41(비정상 종료) 동반.
 - LiveKernelReports\WATCHDOG: 20260913-1338 / 20260914-2349 / 20261002-1421 (TDR 사건과 1:1 대응)

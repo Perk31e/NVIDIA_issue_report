@@ -51,11 +51,10 @@ PROCESS_NAME: msedgewebview2.exe (당시 현재 프로세스 — DPC와 무관)
 ```
 **해석:** NVIDIA DPC가 DISPATCH_LEVEL에서 할당 시간을 초과(스택 백트레이스 캡처를 포함한 경로에서 장기 체류/스핀). 0x116(엔진 타임아웃)과 발생 양상은 다르나 **동일 드라이버(nvlddmkm)** 의 GPU 처리 지연이라는 공통 뿌리. 당시 webview2(브라우저 GPU 가속) 활성.
 
-## 4. MEMORY.dmp / 덮어쓰기 타임라인 (확증)
-이벤트 로그(WER 1001):
-- 13:21 `0x000000ce`(nProtect) → MEMORY.DMP 저장
-- 13:58 `0x00000133`(NVIDIA) → MEMORY.DMP **덮어씀**
-→ 현재 `C:\Windows\MEMORY.dmp`(16GB)는 0x133(NVIDIA). **nProtect 0xCE 전체덤프가 이 NVIDIA 크래쉬로 유실된 것**이 로그로 확정됨. (EST_REM_11 참조)
+## 4. MEMORY.dmp (전체덤프) 상태
+- 현재 `C:\Windows\MEMORY.dmp`(16GB)는 본 **0x133(NVIDIA)** 사건의 전체덤프.
+- 같은 날 다른(무관한) bugcheck가 잇따라 발생해 MEMORY.DMP가 순차적으로 덮여, 0x133 외 사건의 전체덤프는 남지 않고 **미니덤프만** 존재.
+→ NVIDIA 분석에는 본 0x133 미니덤프(및 전체덤프) + 0x116 미니덤프 3건 + 워치독 캡처로 충분.
 
 ## 5. 통합 가설 & 심화 한계 (정직)
 - **확정(WHAT):** RTX 4060 Laptop dGPU의 **반복적 GPU 행 → TDR 리셋 실패(c000009a) → 0x116**, 그리고 1건의 **NVIDIA DPC 초과(0x133)**. 범인 모듈은 DPC/리셋 경로상 nvlddmkm로 단정.
