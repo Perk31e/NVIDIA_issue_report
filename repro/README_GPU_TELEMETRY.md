@@ -9,6 +9,7 @@
 | `collect_gpu_static.ps1` | 정적 정보 1회 수집(vBIOS/GPU/드라이버/전력한계 등). GPU-Z 대체. |
 | `gpu_telemetry_logger.ps1` | 상시 로거: 매 5초 온도/util/VRAM/전력/클럭/pstate/스로틀 + AC·포그라운드앱·GPU점유 상위·디스플레이 수 → CSV(매 샘플 flush). |
 | `install_gpu_logger_task.ps1` | 로거를 "로그온 시 자동 실행" 스케줄 작업으로 등록/해제. |
+| `run_hidden.vbs` | 콘솔 창 없이(완전 백그라운드) 로거를 실행하는 런처. 스케줄 작업이 이 vbs를 호출(wscript)해 **터미널 창이 뜨지 않음**. wscript가 powershell 종료까지 대기해 작업 스케줄러가 프로세스 트리를 유지. |
 
 ## 사용
 ```powershell

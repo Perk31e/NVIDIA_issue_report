@@ -9,15 +9,17 @@
 param([switch]$Uninstall)
 $TaskName = "EST_REM_GPU_TDR_Telemetry"
 $logger = Join-Path $PSScriptRoot "gpu_telemetry_logger.ps1"
+$vbs    = Join-Path $PSScriptRoot "run_hidden.vbs"
 
 if($Uninstall){
   Unregister-ScheduledTask -TaskName $TaskName -Confirm:$false -EA SilentlyContinue
   "해제됨: $TaskName"; return
 }
 if(-not (Test-Path $logger)){ throw "로거 스크립트 없음: $logger" }
+if(-not (Test-Path $vbs)){ throw "숨김 런처 없음: $vbs" }
 
-$action  = New-ScheduledTaskAction -Execute "powershell.exe" `
-            -Argument "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$logger`""
+# wscript + run_hidden.vbs 로 실행 → 콘솔 창이 전혀 뜨지 않음(완전 백그라운드).
+$action  = New-ScheduledTaskAction -Execute "wscript.exe" -Argument "`"$vbs`""
 $trigger = New-ScheduledTaskTrigger -AtLogOn
 $set     = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
             -StartWhenAvailable -RestartCount 3 -RestartInterval (New-TimeSpan -Minutes 1) `
