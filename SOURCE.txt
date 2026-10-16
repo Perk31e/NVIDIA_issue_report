@@ -1,0 +1,17 @@
+pc: L4B_D0G (분석/수집 호스트, MSI Creator Z17HX Studio A13VFT)
+os: Windows 11, kernel 10.0.26100.1
+GPU: NVIDIA GeForce RTX 4060 Laptop GPU (+ Intel UHD Graphics, 하이브리드/Optimus)
+
+원본 덤프 출처: C:\Windows\Minidump (호스트 자동 생성)
+  - 091326-17828-01.dmp  0x116 VIDEO_TDR  (2026-09-13)
+  - 091426-19140-01.dmp  0x116 VIDEO_TDR  (2026-09-14)
+  - 100226-21437-01.dmp  0x116 VIDEO_TDR  (2026-10-02)
+  - 101626-20234-01.dmp  0x133 DPC_WATCHDOG (2026-10-16 13:40)
+보강: C:\Windows\LiveKernelReports\WATCHDOG\WATCHDOG-*.dmp (GPU 워치독 라이브 캡처 3)
+전체덤프: C:\Windows\MEMORY.dmp (16GB, 0x133과 동일 사건) — 대용량·독점심볼로 저장소 미포함
+
+드라이버: nvlddmkm.sys 32.0.16.1742 (2026-10-02), SHA256 DB407B964C11441642A1642A0922C35990DE974C267A08537C3432765365F84B
+  경로: C:\Windows\System32\DriverStore\FileRepository\nvmii.inf_amd64_52a4c0ca7914a7b3\nvlddmkm.sys
+  ※ 108MB 독점 바이너리 → 저장소엔 해시/버전만 포함(binaries/nvlddmkm_version.txt)
+
+벤더: NVIDIA (디바이스 OEM: MSI). 성격: GPU 드라이버 안정성(가용성) 이슈, 보안 제보 아님.
