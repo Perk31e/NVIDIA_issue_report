@@ -13,6 +13,7 @@ NVIDIA(및 OEM MSI)에 보낼 **GPU TDR/DPC 안정성 이슈** 패키지. 이 �
 - `nvidia-smi_static.txt` — vBIOS/드라이버/전력한계 등 GPU 정적 정보.
 - `driver_bios_gpu.txt` — GPU/BIOS/OS 요약.
 - `gpu_events_filtered.txt` — System 이벤트 중 **GPU/TDR 관련만** 필터(무관 bugcheck·타 드라이버 줄 제외).
+- `SUBMISSION_EN.md` — NVIDIA 티켓/피드백 폼에 붙여 넣을 영문 본문 초안.
 - `MANIFEST.txt` — 함께 첨부할 바이너리 덤프 목록(아래).
 
 ## 함께 첨부할 덤프 (바이너리, 상위 폴더 참조)

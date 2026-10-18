@@ -1,6 +1,6 @@
 # NVIDIA `nvlddmkm.sys` — GPU TDR(0x116) ×3 + DPC watchdog(0x133)
 
-**성격: 보안 취약점(제보)이 아니라 GPU 드라이버 안정성/신뢰성 결함.** 공격자 제어 프리미티브가 없고 임팩트는 재부팅/BSOD(가용성). 벤더: **NVIDIA** (디바이스: GeForce RTX 4060 Laptop GPU). 호스트 L4B_D0G(MSI Creator Z17HX, Win11 26100, Intel UHD + NVIDIA 하이브리드).
+**성격: 보안 취약점(제보)이 아니라 GPU 드라이버 안정성/신뢰성 결함.** 공격자 제어 프리미티브가 없고 임팩트는 재부팅/BSOD(가용성). 벤더: **NVIDIA** (디바이스: GeForce RTX 4060 Laptop GPU). 호스트 L4B_D0G(MSI Creator Z17HX, Win11 Pro Build 26300(커널 베이스 26100), Intel UHD + NVIDIA 하이브리드).
 
 - `nvlddmkm.sys` **32.0.16.1742** (2026-10-02, 108.7MB, SHA256 `DB407B96…F84B`; NVIDIA 공개판 ≈ 617.42 계열)
 - TDR 레지스트리(TdrLevel/Delay/DdiDelay): **전부 기본값**(사용자 수정 없음)
@@ -50,6 +50,9 @@ DPC 체인:
 PROCESS_NAME: msedgewebview2.exe (당시 현재 프로세스 — DPC와 무관)
 ```
 **해석:** NVIDIA DPC가 DISPATCH_LEVEL에서 할당 시간을 초과(스택 백트레이스 캡처를 포함한 경로에서 장기 체류/스핀). 0x116(엔진 타임아웃)과 발생 양상은 다르나 **동일 드라이버(nvlddmkm)** 의 GPU 처리 지연이라는 공통 뿌리. 당시 webview2(브라우저 GPU 가속) 활성.
+
+## 3-1. PCIe AER 정정 오류 (WHEA-Logger 17)
+2026-10-14 10:21:11/12에 **WHEA 17(정정된 하드웨어 오류)** 2건: `PCI Express Root Port`, AER, Primary BDF `0:1:0`, 장치 `PCI\VEN_8086&DEV_460D` (CPU PEG 루트포트). dGPU가 `01:00.0`에 있으므로 이 포트는 **RTX 4060의 상위 링크**. 정정된 오류라 단독으로 크래시를 일으키진 않지만, 하이브리드 노트북의 dGPU 링크 절전/전원 전환(ASPM, GC6/D3cold) 경로 문제 가능성을 보여주는 보조 단서. `gpu_events_filtered.txt`에 포함. (WHEA 3 정보성 이벤트 21건은 내용 미해석.)
 
 ## 4. MEMORY.dmp (전체덤프) 상태
 - 현재 `C:\Windows\MEMORY.dmp`(16GB)는 본 **0x133(NVIDIA)** 사건의 전체덤프.
