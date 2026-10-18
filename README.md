@@ -6,7 +6,7 @@ NVIDIA(및 노트북 OEM MSI)에 보낼 **GPU 드라이버 안정성 문제** �
 
 ## 무슨 문제인가
 
-- 장비: MSI Creator Z17HX (호스트 L4B_D0G), NVIDIA GeForce RTX 4060 Laptop GPU + Intel UHD 하이브리드, Windows 11 26100
+- 장비: MSI Creator Z17HX (호스트 L4B_D0G), NVIDIA GeForce RTX 4060 Laptop GPU + Intel UHD 하이브리드, Windows 11 Pro Build 26300 (커널 베이스 26100)
 - 드라이버: `nvlddmkm.sys` 32.0.16.1742 (공개판 617.42 계열)
 - **0x116 VIDEO_TDR_FAILURE 3건** (2026-09-13, 09-14, 10-02): GPU가 시간 안에 응답하지 않아 Windows가 GPU를 리셋하려 했는데, 그 리셋 자체가 `0xC000009A`(자원 부족)로 실패해서 블루스크린. 3건 모두 스택과 인자가 똑같고, 드라이버 버전을 바꿔도 재발.
 - **0x133 DPC_WATCHDOG_VIOLATION 1건** (2026-10-16): NVIDIA 드라이버의 DPC(커널 지연 작업)가 허용 시간을 넘김.
