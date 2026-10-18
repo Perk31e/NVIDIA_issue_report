@@ -6,7 +6,7 @@
   사용: 그냥 실행하면 포그라운드 로깅. 상시 수집은 install_gpu_logger_task.ps1로 로그온 시 자동 실행 등록.
 #>
 param(
-  [string]$OutDir = "C:\ProgramData\EST_REM_GPU_TDR",
+  [string]$OutDir = "C:\NVIDIA_issue_report\telemetry_logs",
   [int]$IntervalSec = 5,
   [int]$RetentionDays = 21
 )

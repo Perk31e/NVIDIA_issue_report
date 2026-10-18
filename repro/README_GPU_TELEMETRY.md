@@ -10,6 +10,9 @@
 | `gpu_telemetry_logger.ps1` | 상시 로거: 매 5초 온도/util/VRAM/전력/클럭/pstate/스로틀 + AC·포그라운드앱·GPU점유 상위·디스플레이 수 → CSV(매 샘플 flush). |
 | `install_gpu_logger_task.ps1` | 로거를 "로그온 시 자동 실행" 스케줄 작업으로 등록/해제. |
 | `run_hidden.vbs` | 콘솔 창 없이(완전 백그라운드) 로거를 실행하는 런처. 스케줄 작업이 이 vbs를 호출(wscript)해 **터미널 창이 뜨지 않음**. wscript가 powershell 종료까지 대기해 작업 스케줄러가 프로세스 트리를 유지. |
+| `install_startup_nonadmin.ps1` | **관리자 불필요** 대안: 사용자 Startup 폴더에 숨김 .vbs를 넣어 로그온 시 자동 시작. 스케줄 작업(`install_gpu_logger_task.ps1`)과 **택1**로 사용. |
+
+> 자동 시작 방식 택1 — ① `install_gpu_logger_task.ps1`(스케줄 작업, **등록에 관리자 권한 필요**) 또는 ② `install_startup_nonadmin.ps1`(Startup 폴더, 관리자 불필요). 둘을 동시에 켜면 로거가 중복 실행될 수 있으니 하나만.
 
 ## 사용
 ```powershell
@@ -18,16 +21,16 @@
 
 # 2) 상시 로거 자동 시작 등록 (관리자 불필요)
 .\install_gpu_logger_task.ps1
-Start-ScheduledTask -TaskName EST_REM_GPU_TDR_Telemetry   # 지금 즉시 시작
+Start-ScheduledTask -TaskName NVIDIA_GPU_TDR_Telemetry   # 지금 즉시 시작
 #   해제: .\install_gpu_logger_task.ps1 -Uninstall
 
-# 로그 위치
-#   C:\ProgramData\EST_REM_GPU_TDR\gpu_telemetry_YYYYMMDD.csv  (21일 보존 후 자동 정리)
+# 로그 위치 (프로젝트 내, .gitignore 처리)
+#   C:\NVIDIA_issue_report\telemetry_logs\gpu_telemetry_YYYYMMDD.csv  (21일 보존 후 자동 정리)
 ```
 
 ## TDR 발생 후 수확(harvest)
 1. 크래쉬 시각 확인(이벤트뷰어 또는 `C:\Windows\Minidump`의 새 덤프).
-2. 해당 날짜 `gpu_telemetry_YYYYMMDD.csv`에서 **크래쉬 직전 수십 초** 구간을 잘라 `../evidence/`에 복사.
+2. `telemetry_logs/gpu_telemetry_YYYYMMDD.csv`에서 **크래쉬 직전 수십 초** 구간을 잘라 `../nvidia_submission/`에 복사.
 3. 새 미니덤프/전체덤프도 `../dumps/`에 추가. → 제보 패키지 갱신.
 
 ## CSV 컬럼
@@ -45,4 +48,4 @@ Start-ScheduledTask -TaskName EST_REM_GPU_TDR_Telemetry   # 지금 즉시 시작
 
 ## 비고
 - DDU 클린 설치 / 다른 드라이버 브랜치 테스트는 **NVIDIA가 요청하면** 진행(현 단계 미수행).
-- 로그는 저장소 밖(`C:\ProgramData`)에 쌓여 git 이력을 오염시키지 않음. 필요한 구간만 evidence로 복사.
+- 로그는 프로젝트 내 `telemetry_logs/`에 쌓이며 **`.gitignore`로 git 이력에서 제외**. 필요한 구간만 `nvidia_submission/`로 복사.

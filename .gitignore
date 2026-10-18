@@ -1,0 +1,2 @@
+# 상시 텔레메트리 로그(5초 간격 CSV) — git 이력 오염 방지. 필요한 구간만 nvidia_submission/로 복사.
+telemetry_logs/
