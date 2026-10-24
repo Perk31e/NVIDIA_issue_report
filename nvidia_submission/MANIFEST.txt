@@ -1,4 +1,11 @@
-﻿# NVIDIA 제출 시 함께 첨부할 바이너리 덤프 (상위 EST_REM_12 폴더 기준 상대경로)
+﻿# NVIDIA/MSI 제출 첨부물 (상위 저장소 루트 기준 상대경로)
+
+# --- 최신 인시던트 (2026-10-24 23:11, 행 직전 텔레메트리 확보) ---
+livekernelreports/WATCHDOG-20261024-2311.dmp        # 0x141 VIDEO_ENGINE_TIMEOUT (nvlddmkm) — 오늘 TDR
+nvidia_submission/telemetry_20261024_TDR_2311.csv   # 행 직전 텔레메트리(~88°C, SW 열 스로틀 0x20, SM클럭 하강)
+nvidia_submission/INCIDENT_20261024_TDR.md          # 인시던트 분석 노트
+
+# --- 과거 TDR/DPC (동일 계열, 복수 드라이버 버전에 걸쳐 재발) ---
 dumps/tdr_091326-17828-01_0x116.dmp
 dumps/tdr_091426-19140-01_0x116.dmp
 dumps/tdr_100226-21437-01_0x116.dmp
@@ -6,5 +13,8 @@ dumps/dpcwatchdog_101626-20234-01_0x133.dmp
 livekernelreports/WATCHDOG-20260913-1338.dmp
 livekernelreports/WATCHDOG-20260914-2349.dmp
 livekernelreports/WATCHDOG-20261002-1421.dmp
-# 참고: 커널 덤프의 '로드된 드라이버 목록'에는 제3자 SW가 포함될 수 있음(모든 커널 덤프 공통).
-#       완전 무관SW 미적재 상태 증거만 원하면 09-13 / 09-14 TDR 2건만 첨부해도 동일 버그 재현.
+
+# 참고:
+# - 커널 덤프의 '로드된 드라이버 목록'엔 제3자 SW가 포함될 수 있음(모든 커널 덤프 공통).
+# - 2026-10-20 미니덤프/MEMORY.dmp(0xD1, YSR0.sys=NoxPlayer)는 NVIDIA 무관이라 제외.
+# - 드라이버는 32.0.16.1742 → 2101(2026-10-21)로 업데이트됐으나 10-24 TDR 재발.
