@@ -36,7 +36,7 @@ Start-ScheduledTask -TaskName NVIDIA_GPU_TDR_Telemetry   # 지금 즉시 시작
 ## CSV 컬럼
 `iso_time, temp_c, gpu_util, mem_util, mem_used_mib, mem_total_mib, power_w, power_limit_w, sm_mhz, mem_mhz, pstate, throttle_active, hw_thermal, sw_power_cap, hw_power_brake, ac, displays, foreground, top_gpu_procs`
 
-## 검증 결과 (이 호스트 L4B_D0G, 2026-10-16)
+## 검증 결과 (이 호스트 HOST-01, 2026-10-16)
 3개 스크립트 실제 실행으로 동작 확인:
 - `collect_gpu_static.ps1` → vBIOS `95.07.16.40.ec`, 드라이버 617.42, RTX 4060 Laptop 8188MiB 정상 추출.
 - `gpu_telemetry_logger.ps1` → CSV 전 컬럼 실값 기록 확인. 예:

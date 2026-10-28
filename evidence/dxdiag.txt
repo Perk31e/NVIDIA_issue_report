@@ -2,8 +2,8 @@
 System Information
 ------------------
       Time of this report: 10/16/2026, 19:25:39
-             Machine name: L4B_D0G
-               Machine Id: {905577A0-1C92-4E62-B312-4F484322F7B8}
+             Machine name: HOST-01
+               Machine Id: {REDACTED}
          Operating System: Windows 11 Pro 64-bit (10.0, Build 26300) (26100.ge_release.240331-1435)
                  Language: Korean (Regional Setting: Korean)
       System Manufacturer: Micro-Star International Co., Ltd.
