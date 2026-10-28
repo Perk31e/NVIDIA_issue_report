@@ -1,0 +1,97 @@
+﻿# msinfo32 발췌본 (공개용). 원본 전체 덤프에서 시스템 요약 / 디스플레이 / 문제가 있는 장치 섹션만 남김.
+# 호스트명·사용자명은 HOST-01 / <user> 로 가림. 설치 SW·서비스·환경 변수·네트워크·실행 작업 목록 등은 제외.
+
+시스템 정보 보고서를 다음에 기록했습니다: 10/16/26 19:31:03
+시스템 이름: HOST-01
+[시스템 요약]
+
+항목	값	
+OS 이름	Microsoft Windows 11 Pro	
+버전	10.0.26300 빌드 26300	
+기타 OS 설명 	사용할 수 없음	
+OS 제조업체	Microsoft Corporation	
+시스템 이름	HOST-01	
+시스템 제조업체	Micro-Star International Co., Ltd.	
+시스템 모델	Creator Z17HXStudio A13VFT	
+시스템 종류	x64 기반 PC	
+시스템 SKU	17N2.1	
+프로세서	13th Gen Intel(R) Core(TM) i7-13700HX, 2100Mhz, 16 코어, 24 논리 프로세서	
+BIOS 버전/날짜	American Megatrends International, LLC. E17N2IMS.10B, 2024-04-25	
+SMBIOS 버전	3.5	
+포함된 컨트롤러 버전	255.255	
+BIOS 모드	UEFI	
+베이스보드 제조업체	Micro-Star International Co., Ltd.	
+베이스보드 제품	MS-17N2	
+베이스보드 버전	REV:1.0	
+플랫폼 역할	모바일	
+보안 부팅 상태	설정	
+PCR7 구성	바인딩 가능	
+Windows 디렉터리	C:\WINDOWS	
+시스템 디렉터리	C:\WINDOWS\system32	
+부팅 장치	\Device\HarddiskVolume1	
+지역	한국	
+하드웨어 추상화 계층	버전 = "10.0.26100.1"	
+사용자 이름	HOST-01\<user>	
+표준 시간대	대한민국 표준시	
+설치된 실제 메모리(RAM)	16.0GB	
+총 실제 메모리	15.7GB	
+사용 가능한 실제 메모리	2.63GB	
+총 가상 메모리	35.7GB	
+사용 가능한 가상 메모리	12.8GB	
+페이지 파일 공간	20.0GB	
+페이지 파일	C:\pagefile.sys	
+커널 DMA 보호	설정	
+가상화 기반 보안	실행 중	
+가상화 기반 보안 필수 보안 속성		
+가상화 기반 보안 사용 가능한 보안 속성	기본 가상화 지원, 보안 부팅, DMA 보호, 보안 메모리 덮어쓰기, UEFI 코드 읽기 전용, SMM Security Mitigations 1.0, 모드 기반 실행 제어, APIC 가상화	
+가상화 기반 보안 서비스 구성		
+가상화 기반 보안 서비스 실행 중		
+Business용 앱 컨트롤	적용	
+Business용 앱 컨트롤 사용자 모드 정책	해제	
+자동 장치 암호화 지원	필수 조건을 충족	
+하이퍼바이저가 검색되었습니다. Hyper-V에 필요한 기능이 표시되지 않습니다.		
+
+[디스플레이]
+
+항목	값	
+이름	Intel(R) UHD Graphics	
+PNP 장치 ID	PCI\VEN_8086&DEV_4688&SUBSYS_13BA1462&REV_0C\3&11583659&0&10	
+어댑터 종류	Intel(R) UHD Graphics Family, Intel Corporation 호환 가능	
+어댑터 설명	Intel(R) UHD Graphics	
+어댑터 RAM	1.00 GB (1,073,741,824 바이트)	
+설치된 드라이버	<>,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9489d75a0d766622\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9489d75a0d766622\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_9489d75a0d766622\igd12umd64.dll	
+드라이버 버전	31.0.101.4314	
+INF 파일	oem198.inf(iADLSD_w10_DS 섹션)	
+색상판	사용할 수 없음	
+색상표 항목	4294967296	
+해상도	2560 x 1600 x 165Hz	
+비트/픽셀	32	
+메모리 주소	0x000000625E000000-0x000000625EFFFFFF	
+메모리 주소	0x0000004000000000-0x000000400FFFFFFF	
+I/O 포트	0x00007000-0x0000703F	
+IRQ 채널	IRQ 4294967267	
+드라이버	C:\WINDOWS\SYSTEM32\DRIVERSTORE\FILEREPOSITORY\IIGD_DCH.INF_AMD64_9489D75A0D766622\IGDKMDN64.SYS (31.0.101.4314, 47.57 MB (49,878,968 바이트), 2026-04-18 오후 7:26)	
+		
+이름	NVIDIA GeForce RTX 4060 Laptop GPU	
+PNP 장치 ID	PCI\VEN_10DE&DEV_28A0&SUBSYS_13BA1462&REV_A1\4&29BF9B01&0&0008	
+어댑터 종류	NVIDIA GeForce RTX 4060 Laptop GPU, NVIDIA 호환 가능	
+어댑터 설명	NVIDIA GeForce RTX 4060 Laptop GPU	
+어댑터 RAM	(1,048,576) 바이트	
+설치된 드라이버	C:\WINDOWS\System32\DriverStore\FileRepository\nvmii.inf_amd64_52a4c0ca7914a7b3\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvmii.inf_amd64_52a4c0ca7914a7b3\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvmii.inf_amd64_52a4c0ca7914a7b3\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvmii.inf_amd64_52a4c0ca7914a7b3\nvldumdx.dll	
+드라이버 버전	32.0.16.1742	
+INF 파일	oem427.inf(Section348 섹션)	
+색상판	사용할 수 없음	
+색상표 항목	4294967296	
+해상도	2560 x 1440 x 74Hz	
+비트/픽셀	32	
+메모리 주소	0x0000000086000000-0x00000000870FFFFF	
+메모리 주소	0x0000006200000000-0x0000006201FFFFFF	
+IRQ 채널	IRQ 4294967262	
+드라이버	C:\WINDOWS\SYSTEM32\DRIVERSTORE\FILEREPOSITORY\NVMII.INF_AMD64_52A4C0CA7914A7B3\NVLDDMKM.SYS (32.0.16.1742, 108.69 MB (113,971,432 바이트), 2026-10-07 오후 9:09)	
+
+[문제가 있는 장치]
+
+장치	PNP 장치 ID	오류 코드	
+USB 입력 장치	USB\VID_04E8&PID_A05B&MI_04\6&8364EBA&0&0004	이 장치를 시작할 수 없습니다.	
+OSFDisk Virtual Adapter	ROOT\SCSIADAPTER\0001	39	
+

@@ -6,7 +6,7 @@ NVIDIA(및 노트북 OEM MSI)에 보낼 **GPU 드라이버 안정성 문제** �
 
 ## 무슨 문제인가
 
-- 장비: MSI Creator Z17HX (호스트 L4B_D0G), NVIDIA GeForce RTX 4060 Laptop GPU + Intel UHD 하이브리드, Windows 11 26H2 정식 릴리스 (build 26300)
+- 장비: MSI Creator Z17HX, NVIDIA GeForce RTX 4060 Laptop GPU + Intel UHD 하이브리드, Windows 11 26H2 정식 릴리스 (build 26300)
 - 드라이버: `nvlddmkm.sys` 32.0.16.1742 (공개판 617.42 계열) → 32.0.16.2101 (공개판 621.01, 2026-10-21 업데이트)
 - **0x116 VIDEO_TDR_FAILURE 4건** (2026-09-13, 09-14, 10-02, 10-29): GPU가 시간 안에 응답하지 않아 Windows가 GPU를 리셋하려 했는데, 그 리셋 자체가 `0xC000009A`(자원 부족)로 실패해서 블루스크린. 4건 모두 인자가 똑같고, 드라이버 1742와 2101 두 버전 모두에서 재발.
 - **0x133 DPC_WATCHDOG_VIOLATION 1건** (2026-10-16): NVIDIA 드라이버의 DPC(커널 지연 작업)가 허용 시간을 넘김.
@@ -23,10 +23,14 @@ NVIDIA(및 노트북 OEM MSI)에 보낼 **GPU 드라이버 안정성 문제** �
 | `analysis/` | 덤프 분석 메모 |
 | `dumps/` | 커널 미니덤프 4개 (0x116 ×3, 0x133 ×1) |
 | `livekernelreports/` | 같은 날짜 TDR의 GPU 워치독 라이브 캡처 3개 |
-| `evidence/` | DxDiag, msinfo32, 이벤트 로그, nvidia-smi 등 호스트 증거 |
+| `evidence/` | DxDiag, msinfo32 발췌본, 이벤트 로그, nvidia-smi 등 호스트 증거 |
 | `binaries/` | 드라이버 버전/해시 (108MB 원본 바이너리는 미포함) |
 | `nvidia_submission/` | NVIDIA에 실제로 보낼 GPU 관련 자료만 추린 서브셋 |
 | `repro/` | 다음 TDR 직전 상태를 남기는 GPU 텔레메트리 수집 스크립트 |
+
+## 공개 범위 (개인정보 가림)
+
+공개 리포라서 호스트명, 사용자 계정명, 기기 고유 ID는 가렸습니다. 호스트명은 `HOST-01`, 사용자 폴더명은 `<user>`(덤프 안에서는 같은 길이의 `user0`), DxDiag Machine Id와 GPU UUID는 `REDACTED`로 바꿨습니다. msinfo32는 전체 덤프 대신 시스템 요약, 디스플레이, 문제가 있는 장치 섹션만 남긴 `evidence/msinfo32_summary.txt`로 대체했습니다. 덤프는 바이트 길이를 그대로 두고 문자열만 치환해서 WinDbg 분석 내용(스택, 인자, 모듈)은 바뀌지 않습니다. 원본 전체 자료가 필요하면 NVIDIA에 비공개 채널로 따로 보냅니다.
 
 ## 상태
 

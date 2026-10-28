@@ -1,7 +1,7 @@
 ﻿# nvidia-smi 정적 수집 (2026-10-16T19:33:45.2553461+09:00)
 ## --query-gpu (핵심)
 name, vbios_version, driver_version, pci.bus_id, memory.total [MiB], serial, uuid, pstate, power.limit [W], power.default_limit [W], enforced.power.limit [W], temperature.gpu
-NVIDIA GeForce RTX 4060 Laptop GPU, 95.07.16.40.ec, 617.42, 00000000:01:00.0, 8188 MiB, [N/A], GPU-319f33ec-cb08-44c2-2fdf-45157cfb9d41, P3, [N/A], 80.00 W, 88.32 W, 71
+NVIDIA GeForce RTX 4060 Laptop GPU, 95.07.16.40.ec, 617.42, 00000000:01:00.0, 8188 MiB, [N/A], GPU-REDACTED, P3, [N/A], 80.00 W, 88.32 W, 71
 
 ## -q (전체 상세)
 
@@ -32,7 +32,7 @@ GPU 00000000:01:00.0
         Current                                        : WDDM
         Pending                                        : WDDM
     Serial Number                                      : N/A
-    GPU UUID                                           : GPU-319f33ec-cb08-44c2-2fdf-45157cfb9d41
+    GPU UUID                                           : GPU-REDACTED
     GPU PDI                                            : 0x90c83614be27be80
     Minor Number                                       : N/A
     VBIOS Version                                      : 95.07.16.40.ec
@@ -394,7 +394,7 @@ GPU 00000000:01:00.0
         Compute instance ID               : N/A
         Process ID                        : 22192
             Type                          : C+G
-            Name                          : C:\Users\Nexus\AppData\Local\Programs\Motrix\Motrix.exe
+            Name                          : C:\Users\<user>\AppData\Local\Programs\Motrix\Motrix.exe
             Used GPU Memory               : Not available in WDDM driver model
         GPU instance ID                   : N/A
         Compute instance ID               : N/A
@@ -406,7 +406,7 @@ GPU 00000000:01:00.0
         Compute instance ID               : N/A
         Process ID                        : 25312
             Type                          : C+G
-            Name                          : C:\Users\Nexus\AppData\Local\Programs\Notion\Notion.exe
+            Name                          : C:\Users\<user>\AppData\Local\Programs\Notion\Notion.exe
             Used GPU Memory               : Not available in WDDM driver model
         GPU instance ID                   : N/A
         Compute instance ID               : N/A
@@ -418,7 +418,7 @@ GPU 00000000:01:00.0
         Compute instance ID               : N/A
         Process ID                        : 27272
             Type                          : C+G
-            Name                          : C:\Users\Nexus\AppData\Local\Temp\GPUQueryExternal_pbvza\GPUQuery_External.exe
+            Name                          : C:\Users\<user>\AppData\Local\Temp\GPUQueryExternal_pbvza\GPUQuery_External.exe
             Used GPU Memory               : Not available in WDDM driver model
         GPU instance ID                   : N/A
         Compute instance ID               : N/A

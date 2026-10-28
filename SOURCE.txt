@@ -1,4 +1,4 @@
-pc: L4B_D0G (분석/수집 호스트, MSI Creator Z17HX Studio A13VFT)
+pc: HOST-01 (분석/수집 호스트, MSI Creator Z17HX Studio A13VFT)
 os: Windows 11 26H2 정식 릴리스 (build 26300)
 GPU: NVIDIA GeForce RTX 4060 Laptop GPU (+ Intel UHD Graphics, 하이브리드/Optimus)
 

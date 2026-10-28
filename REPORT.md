@@ -1,6 +1,6 @@
 # NVIDIA `nvlddmkm.sys` — GPU TDR(0x116) ×4 + DPC watchdog(0x133) + 엔진 타임아웃(0x141)
 
-**성격: 보안 취약점(제보)이 아니라 GPU 드라이버 안정성/신뢰성 결함.** 공격자 제어 프리미티브가 없고 임팩트는 재부팅/BSOD(가용성). 벤더: **NVIDIA** (디바이스: GeForce RTX 4060 Laptop GPU). 호스트 L4B_D0G(MSI Creator Z17HX, Windows 11 26H2 정식 릴리스 build 26300, Intel UHD + NVIDIA 하이브리드).
+**성격: 보안 취약점(제보)이 아니라 GPU 드라이버 안정성/신뢰성 결함.** 공격자 제어 프리미티브가 없고 임팩트는 재부팅/BSOD(가용성). 벤더: **NVIDIA** (디바이스: GeForce RTX 4060 Laptop GPU). 호스트 HOST-01(MSI Creator Z17HX, Windows 11 26H2 정식 릴리스 build 26300, Intel UHD + NVIDIA 하이브리드).
 
 - `nvlddmkm.sys` **32.0.16.1742** (2026-10-02, 108.7MB, SHA256 `DB407B96…F84B`; NVIDIA 공개판 ≈ 617.42 계열) — 09~10월 0x116 3건, 0x133
 - `nvlddmkm.sys` **32.0.16.2101** (공개판 621.01, 2026-10-21 설치, `nvmii.inf_amd64_a55e7dc894061997`) — 10-24 0x141, **10-29 0x116(4번째)**
