@@ -1,4 +1,4 @@
-<#
+﻿<#
   gpu_telemetry_logger.ps1 를 "로그온 시 자동 실행" 스케줄 작업으로 등록/해제.
   관리자 PowerShell에서 실행.
     등록:  .\install_gpu_logger_task.ps1
