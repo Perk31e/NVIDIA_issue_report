@@ -23,7 +23,10 @@ $TaskName   = "NVIDIA_GPU_TDR_Telemetry"
 $LegacyTask = "EST_REM_GPU_TDR_Telemetry"
 $LogDir     = "C:\NVIDIA_issue_report\telemetry_logs"   # gpu_telemetry_logger.ps1 기본값과 동일해야 함
 $results    = [System.Collections.Generic.List[object]]::new()
-function Add-Result($name, $ok, $detail){ $results.Add([pscustomobject]@{ Check=$name; Result=$(if($ok){'PASS'}else{'FAIL'}); Detail=$detail }) }
+function Add-Result($name, $ok, $detail, [switch]$WarnOnly){
+  $r = if($ok){'PASS'}elseif($WarnOnly){'WARN'}else{'FAIL'}
+  $results.Add([pscustomobject]@{ Check=$name; Result=$r; Detail=$detail })
+}
 
 $isAdmin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
 if(-not $isAdmin){ throw "관리자 PowerShell에서 실행하세요 (작업 등록·덤프 설정에 필요)." }
@@ -37,6 +40,13 @@ $smi = @("C:\Windows\System32\nvidia-smi.exe","C:\Program Files\NVIDIA Corporati
 if($smi){
   $drv = (& $smi --query-gpu=name,driver_version,vbios_version --format=csv,noheader 2>$null) -join '; '
   Add-Result "nvidia-smi" $true $drv
+  # 유휴 온도 점검: 10-28 측정 시 P8(유휴) 6-7W인데 77-81C 였음. 유휴인데 70C 넘으면 냉각 이상 의심.
+  $t = (& $smi --query-gpu=temperature.gpu,pstate,power.draw --format=csv,noheader,nounits 2>$null) -split '\s*,\s*'
+  if($t.Count -ge 3){
+    $idle = $t[1] -in 'P8','P12'
+    $hot  = $idle -and (($t[0] -as [int]) -gt 70)
+    Add-Result "유휴 GPU 온도" (-not $hot) "$($t[0])C, $($t[1]), $($t[2])W$(if($hot){' - 유휴인데 70C 초과: 쿨링/써멀 점검 필요'}elseif(-not $idle){' - 유휴 상태 아님(부하 중 측정)'})" -WarnOnly
+  }
 } else {
   Add-Result "nvidia-smi" $false "없음 - NVIDIA 드라이버를 먼저 설치하고 다시 실행"
 }
