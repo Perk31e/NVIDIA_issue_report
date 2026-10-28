@@ -1,8 +1,10 @@
-# NVIDIA `nvlddmkm.sys` — GPU TDR(0x116) ×3 + DPC watchdog(0x133)
+# NVIDIA `nvlddmkm.sys` — GPU TDR(0x116) ×4 + DPC watchdog(0x133) + 엔진 타임아웃(0x141)
 
-**성격: 보안 취약점(제보)이 아니라 GPU 드라이버 안정성/신뢰성 결함.** 공격자 제어 프리미티브가 없고 임팩트는 재부팅/BSOD(가용성). 벤더: **NVIDIA** (디바이스: GeForce RTX 4060 Laptop GPU). 호스트 L4B_D0G(MSI Creator Z17HX, Win11 26100, Intel UHD + NVIDIA 하이브리드).
+**성격: 보안 취약점(제보)이 아니라 GPU 드라이버 안정성/신뢰성 결함.** 공격자 제어 프리미티브가 없고 임팩트는 재부팅/BSOD(가용성). 벤더: **NVIDIA** (디바이스: GeForce RTX 4060 Laptop GPU). 호스트 L4B_D0G(MSI Creator Z17HX, Windows 11 26H2 정식 릴리스 build 26300, Intel UHD + NVIDIA 하이브리드).
 
-- `nvlddmkm.sys` **32.0.16.1742** (2026-10-02, 108.7MB, SHA256 `DB407B96…F84B`; NVIDIA 공개판 ≈ 617.42 계열)
+- `nvlddmkm.sys` **32.0.16.1742** (2026-10-02, 108.7MB, SHA256 `DB407B96…F84B`; NVIDIA 공개판 ≈ 617.42 계열) — 09~10월 0x116 3건, 0x133
+- `nvlddmkm.sys` **32.0.16.2101** (공개판 621.01, 2026-10-21 설치, `nvmii.inf_amd64_a55e7dc894061997`) — 10-24 0x141, **10-29 0x116(4번째)**
+- **요약: 동일 0x116(Arg3=0xC000009A 리셋 실패) 4건이 두 드라이버 버전(1742, 2101)에 걸쳐 발생.**
 - TDR 레지스트리(TdrLevel/Delay/DdiDelay): **전부 기본값**(사용자 수정 없음)
 
 ## 1. 사건 목록 (dumps/)
@@ -13,13 +15,16 @@
 | `tdr_091426-19140-01_0x116.dmp` | 09-14 23:49 | 0x116 | 16h02m | 동일 시그니처 |
 | `tdr_100226-21437-01_0x116.dmp` | 10-02 14:21 | 0x116 | 22h21m | 동일 시그니처 |
 | `dpcwatchdog_101626-20234-01_0x133.dmp` | 10-16 13:40 | 0x133 DPC_WATCHDOG_VIOLATION | 19m | NVIDIA DPC 초과 |
+| `livekernelreports/WATCHDOG-20261024-2311.dmp` | 10-24 23:11 | 0x141 VIDEO_ENGINE_TIMEOUT (라이브) | | 드라이버 2101, ~88°C 열 스로틀 |
+| (10-28 라이브덤프, 미업로드) | 10-28 15:32 | 0x1A8 / 0x1B8 (라이브) | | 블랙스크린 라이브덤프 + 비정상 재부팅 |
+| (10-29 미니덤프, 미업로드) | **10-29 00:44** | **0x116** | | **4번째 동일 시그니처, 드라이버 2101.** 12초 전 0x141 nvlddmkm |
 
 보강: `livekernelreports/WATCHDOG-*.dmp` 3개 = 같은 날짜 TDR의 GPU 워치독 라이브 캡처.
 전체덤프 `C:\Windows\MEMORY.dmp`(16GB)는 0x133과 동일 사건이나 대용량·독점 심볼 없음으로 **미포함**(아래 §4 참고).
 
-## 2. 0x116 VIDEO_TDR_FAILURE — 3건 **동일 실패 경로** (심화)
+## 2. 0x116 VIDEO_TDR_FAILURE — 4건 **동일 실패 경로** (심화)
 
-세 덤프 모두 인자·스택이 동일:
+09~10월 세 덤프의 인자·스택이 동일하며, 10-29 4번째 건도 같은 Arg3/Arg4(`0xC000009A`, `4`)로 발생:
 ```
 Arg1 = TDR_RECOVERY_CONTEXT 포인터
 Arg2 = 책임 모듈(owner tag) → nvlddmkm
@@ -35,8 +40,9 @@ STACK:
 **해석:** NVIDIA dGPU 엔진이 TDR 타임아웃(기본 ~2s) 내에 응답하지 못함 → dxgkrnl이 어댑터 리셋(`DXGADAPTER::Reset`)을 시도 → **리셋 자체가 `STATUS_INSUFFICIENT_RESOURCES`로 실패** → 복구 불가로 `TdrBugcheckOnTimeout`이 0x116 발생. 즉 **"GPU 행 + 복구(리셋) 실패"** 의 2단 실패.
 
 핵심 소견:
-- **결정적·반복적 시그니처**: 3건이 인자·스택 완전 동일 → 무작위 손상이 아닌 **체계적 실패 모드**. `!analyze`의 `MEMORY_CORRUPTION_LARGE`는 nvlddmkm 심볼 부재로 인한 **오탐 버킷**(실제 손상 아님).
-- **드라이버 버전 교체에도 지속**: 3건이 서로 다른 DriverStore inf(`nvmii.inf_amd64_7251a3c0…`, `…_185e17ff…`, 현재 `…_52a4c0ca…`)에서 발생 → 최소 2~3개 드라이버 버전에 걸쳐 재발. **드라이버 업데이트로 해소되지 않음.**
+- **결정적·반복적 시그니처**: 4건이 인자 동일(09~10월 3건은 스택까지 완전 동일) → 무작위 손상이 아닌 **체계적 실패 모드**. `!analyze`의 `MEMORY_CORRUPTION_LARGE`는 nvlddmkm 심볼 부재로 인한 **오탐 버킷**(실제 손상 아님).
+- **드라이버 버전 교체에도 지속**: 3건이 서로 다른 DriverStore inf(`nvmii.inf_amd64_7251a3c0…`, `…_185e17ff…`, 현재 `…_52a4c0ca…`)에서 발생 → 최소 2~3개 드라이버 버전에 걸쳐 재발. 10-29 4번째 건은 새 드라이버 **32.0.16.2101**(`…_a55e7dc8…`)에서 발생. **드라이버 업데이트로 해소되지 않음.**
+- 10-29 건은 StarCraft II **메뉴 대기(저부하)** 중, 본체가 뜨거운 상태에서 발생. 10-24 0x141은 같은 게임 중 ~88°C 열 스로틀 상태 → 열 요인이 동반되나 저부하에서도 재현.
 - 발생이 Uptime 3h~22h 로 분산 → 단발 트랜션트가 아니라 **장시간 사용 중 누적/부하 조건**에서 재현.
 
 ## 3. 0x133 DPC_WATCHDOG_VIOLATION (심화)
@@ -51,6 +57,12 @@ PROCESS_NAME: msedgewebview2.exe (당시 현재 프로세스 — DPC와 무관)
 ```
 **해석:** NVIDIA DPC가 DISPATCH_LEVEL에서 할당 시간을 초과(스택 백트레이스 캡처를 포함한 경로에서 장기 체류/스핀). 0x116(엔진 타임아웃)과 발생 양상은 다르나 **동일 드라이버(nvlddmkm)** 의 GPU 처리 지연이라는 공통 뿌리. 당시 webview2(브라우저 GPU 가속) 활성.
 
+## 3-1. 2026-10-24 ~ 10-29 추가 사건 (드라이버 32.0.16.2101)
+- **10-24 23:11 0x141** VIDEO_ENGINE_TIMEOUT (nvlddmkm). 행 직전 텔레메트리: ~88°C, SW 열 스로틀 활성, SM 클럭 하강. → `nvidia_submission/INCIDENT_20261024_TDR.md`
+- **10-28 15:32 0x1A8 / 0x1B8** 라이브덤프(블랙스크린, csrss) 후 비정상 재부팅.
+- **10-29 00:44 0x116** (4번째): 12초 전 0x141 WATCHDOG(`nvlddmkm+0x198ba90`) → 리셋 실패(c000009a) → 0x116. 기존 3건과 동일 경로. → `nvidia_submission/INCIDENT_20261029_0x116.md`
+- 10-29 크래시는 BIOS E17N2IMS.10B에서 발생. 이후 사용자가 BIOS 10D + Intel ME FW로 업데이트(관찰 중).
+
 ## 4. MEMORY.dmp (전체덤프) 상태
 - 현재 `C:\Windows\MEMORY.dmp`(16GB)는 본 **0x133(NVIDIA)** 사건의 전체덤프.
 - 같은 날 다른(무관한) bugcheck가 잇따라 발생해 MEMORY.DMP가 순차적으로 덮여, 0x133 외 사건의 전체덤프는 남지 않고 **미니덤프만** 존재.
@@ -62,11 +74,11 @@ PROCESS_NAME: msedgewebview2.exe (당시 현재 프로세스 — DPC와 무관)
 - 기여 가능 요인(확인 불가, 후보): 드라이버 리셋 경로 버그, VRAM/커널 자원 압박, 하이브리드(Optimus)/MUX 전환, 노트북 열/전력, 브라우저·webview GPU 컴포지터 등 특정 GPU 소비자.
 
 ## 6. 권장 진단/다음 단계
-1. **DDU 클린 제거 후 다른 브랜치 설치**(현재/최근 버전이 해소 못 했으므로 구 Studio 등 known-good로 롤백 테스트).
+1. **DDU 클린 제거 후 다른 브랜치 설치**(1742·2101 모두 해소 못 했으므로 구 Studio 등 known-good로 롤백 테스트).
 2. 부하 중 **GPU 온도/전력/VRAM 로깅**(HWiNFO/GPU-Z)으로 행 조건 포착.
 3. **트리거 검증:** 브라우저/webview 하드웨어 가속 OFF 후 TDR 재발 여부(0x133이 webview2 동반).
 4. 진단용으로 `TdrDelay` 상향 → 리셋 성공 여부 관찰(근본 수정 아님).
 5. `nvidia-bug-report` 수집, MSI BIOS/vBIOS·GeForce 최신화, AC/배터리·스트레스(FurMark/3DMark) 재현, Intel iGPU 드라이버도 갱신(하이브리드 경로).
 
 ## 7. 분류
-- 벤더 **NVIDIA**(+디바이스 OEM MSI). **신뢰성/안정성 이슈**(가용성), 보안 제보 성격 아님. 증거: 미니덤프 4 + 워치독 3 + 드라이버 버전/해시.
+- 벤더 **NVIDIA**(+디바이스 OEM MSI). **신뢰성/안정성 이슈**(가용성), 보안 제보 성격 아님. 증거: 미니덤프 4(+10-29 미업로드 1) + 워치독 4(+10-28·10-29 미업로드) + 드라이버 버전/해시.
