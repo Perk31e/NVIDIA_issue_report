@@ -48,7 +48,7 @@ powershell -ExecutionPolicy Bypass -File .\backup_before_format.ps1 -Destination
    cd C:\NVIDIA_issue_report\repro
    powershell -ExecutionPolicy Bypass -File .\setup_after_format.ps1
    ```
-   스케줄 작업 등록·시작, 작업 `Running` 여부, 오늘자 CSV에 새 행이 쌓이는지, 로거 프로세스 중복 여부를 확인하고
+   스케줄 작업 등록·시작, 작업 `Running` 여부, 오늘자 CSV에 새 행이 쌓이는지, 로거 프로세스 중복 여부, 유휴(P8) GPU 온도가 70C를 넘는지(넘으면 WARN)를 확인하고
    크래시 덤프를 **커널 메모리 덤프**로 설정합니다(`-DumpType Active` 또는 `Complete`로 변경 가능). 마지막에 PASS/FAIL 표가 나옵니다.
 4. 재부팅 후 한 번 더 `.\setup_after_format.ps1 -SkipCrashDump` → 로그온 자동 시작까지 PASS면 끝.
 
