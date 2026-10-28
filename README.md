@@ -25,7 +25,7 @@ NVIDIA(및 노트북 OEM MSI)에 보낼 **GPU 드라이버 안정성 문제** �
 | `evidence/` | DxDiag, msinfo32, 이벤트 로그, nvidia-smi 등 호스트 증거 |
 | `binaries/` | 드라이버 버전/해시 (108MB 원본 바이너리는 미포함) |
 | `nvidia_submission/` | NVIDIA에 실제로 보낼 GPU 관련 자료만 추린 서브셋 |
-| `repro/` | 다음 TDR 직전 상태를 남기는 GPU 텔레메트리 수집 스크립트 |
+| `repro/` | 다음 TDR 직전 상태를 남기는 GPU 텔레메트리 수집 스크립트. 포맷 전 백업/포맷 후 설정 절차는 [`repro/README_GPU_TELEMETRY.md`](repro/README_GPU_TELEMETRY.md#포맷클린-설치-절차) |
 
 ## 상태
 
