@@ -1,6 +1,12 @@
 ﻿# NVIDIA/MSI 제출 첨부물 (상위 저장소 루트 기준 상대경로)
 
-# --- 최신 인시던트 (2026-10-24 23:11, 행 직전 텔레메트리 확보) ---
+# --- 최신 인시던트 (2026-10-29 00:44, 4번째 0x116, 드라이버 32.0.16.2101) ---
+nvidia_submission/INCIDENT_20261029_0x116.md        # 인시던트 노트 (0x141 → 0x116, 리셋 실패 c000009a)
+# (업로드 예정) C:\Windows\Minidump\ 10-29 미니덤프          # 0x116, Arg3=0xC000009A, Arg4=4
+# (업로드 예정) LiveKernelReports\WATCHDOG 10-29 00:44 덤프   # 0x141 nvlddmkm, BSOD 12초 전
+# (업로드 예정) LiveKernelReports 10-28 15:32 덤프 2개         # 0x1A8 / 0x1B8 (블랙스크린), 직후 비정상 재부팅
+
+# --- 2026-10-24 23:11 (행 직전 텔레메트리 확보) ---
 livekernelreports/WATCHDOG-20261024-2311.dmp        # 0x141 VIDEO_ENGINE_TIMEOUT (nvlddmkm) — 오늘 TDR
 nvidia_submission/telemetry_20261024_TDR_2311.csv   # 행 직전 텔레메트리(~88°C, SW 열 스로틀 0x20, SM클럭 하강)
 nvidia_submission/INCIDENT_20261024_TDR.md          # 인시던트 분석 노트
@@ -16,5 +22,5 @@ livekernelreports/WATCHDOG-20261002-1421.dmp
 
 # 참고:
 # - 커널 덤프의 '로드된 드라이버 목록'엔 제3자 SW가 포함될 수 있음(모든 커널 덤프 공통).
-# - 2026-10-20 미니덤프/MEMORY.dmp(0xD1, YSR0.sys=NoxPlayer)는 NVIDIA 무관이라 제외.
-# - 드라이버는 32.0.16.1742 → 2101(2026-10-21)로 업데이트됐으나 10-24 TDR 재발.
+# - NVIDIA와 무관한 사건의 덤프는 제외.
+# - 드라이버는 32.0.16.1742 → 2101(2026-10-21)로 업데이트됐으나 10-24 TDR(0x141), 10-29 0x116 재발.

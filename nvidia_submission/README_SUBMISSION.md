@@ -3,16 +3,20 @@
 NVIDIA(및 OEM MSI)에 보낼 **GPU TDR/DPC 안정성 이슈** 패키지. 이 폴더의 텍스트 증거는 **GPU와 무관한 제3자 소프트웨어 항목을 제거/배제**했습니다.
 
 ## 증상 요약
-- GPU: NVIDIA GeForce RTX 4060 Laptop GPU / vBIOS `95.07.16.40.ec` / 드라이버 `617.42`(32.0.16.1742)
-- **0x116 VIDEO_TDR ×3** (2026-09-13 / 09-14 / 10-02): 동일 시그니처. GPU 타임아웃 후 `dxgkrnl` 어댑터 리셋이 `STATUS_INSUFFICIENT_RESOURCES(0xC000009A)`로 실패 → 복구 불가.
+- GPU: NVIDIA GeForce RTX 4060 Laptop GPU / vBIOS `95.07.16.40.ec` / 드라이버 `617.42`(32.0.16.1742) → `621.01`(32.0.16.2101, 2026-10-21~)
+- OS: Windows 11 26H2 정식 릴리스 (build 26300). BIOS: E17N2IMS.10B (크래시 당시).
+- **0x116 VIDEO_TDR ×4** (2026-09-13 / 09-14 / 10-02 / **10-29**): 동일 시그니처(Arg3=0xC000009A, Arg4=4). GPU 타임아웃 후 `dxgkrnl` 어댑터 리셋이 `STATUS_INSUFFICIENT_RESOURCES(0xC000009A)`로 실패 → 복구 불가.
   `TdrBugcheckOnTimeout ← ADAPTER_RENDER::Reset ← TdrResetFromTimeout`
 - **0x133 DPC_WATCHDOG** (2026-10-16): nvlddmkm DPC가 할당 시간 초과(`KiExecuteAllDpcs → nvlddmkm → RtlCaptureStackBackTrace`).
-- 서로 다른 드라이버 버전(DriverStore inf 3종)에서 재발 → 업데이트로 미해소. TDR 레지스트리는 전부 기본값.
+- **0x141 VIDEO_ENGINE_TIMEOUT** (2026-10-24 23:11, 드라이버 2101): 행 직전 ~88°C 열 스로틀 텔레메트리 확보 → `INCIDENT_20261024_TDR.md`.
+- **10-29 00:44 0x116 (4번째, 드라이버 2101)**: StarCraft II 메뉴 대기 중, 본체 고온. 12초 전 0x141(nvlddmkm). 전날 10-28 15:32 0x1A8/0x1B8 라이브덤프 + 비정상 재부팅 → `INCIDENT_20261029_0x116.md`.
+- 서로 다른 드라이버 버전(1742 계열 DriverStore inf 3종 + 2101)에서 재발 → 업데이트로 미해소. TDR 레지스트리는 전부 기본값.
 
 ## 이 폴더에 포함 (텍스트, GPU 관련만)
 - `nvidia-smi_static.txt` — vBIOS/드라이버/전력한계 등 GPU 정적 정보.
-- `driver_bios_gpu.txt` — GPU/BIOS/OS 요약.
+- `driver_bios_gpu.txt` — GPU/BIOS/OS 요약 (2026-10-18 수집 시점 스냅샷, 드라이버 1742 기준).
 - `gpu_events_filtered.txt` — System 이벤트 중 **GPU/TDR 관련만** 필터(무관 bugcheck·타 드라이버 줄 제외).
+- `INCIDENT_20261024_TDR.md`, `INCIDENT_20261029_0x116.md` — 최근 사건 노트.
 - `MANIFEST.txt` — 함께 첨부할 바이너리 덤프 목록(아래).
 
 ## 함께 첨부할 덤프 (바이너리, 상위 폴더 참조)

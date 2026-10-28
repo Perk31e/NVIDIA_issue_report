@@ -5,4 +5,4 @@ date    : 10/02/2026 04:21:32
 sizeMB  : 108.7   # 108MB 독점 바이너리 → 저장소엔 해시만 포함
 sha256  : DB407B964C11441642A1642A0922C35990DE974C267A08537C3432765365F84B
 GPU     : NVIDIA GeForce RTX 4060 Laptop GPU (+ Intel UHD, 하이브리드/Optimus)
-host    : HOST-01 (MSI Creator Z17HX Studio A13VFT, Win11 26100)
+host    : HOST-01 (MSI Creator Z17HX Studio A13VFT, Win11 26H2 build 26300)

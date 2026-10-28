@@ -1,5 +1,5 @@
 pc: HOST-01 (분석/수집 호스트, MSI Creator Z17HX Studio A13VFT)
-os: Windows 11, kernel 10.0.26100.1
+os: Windows 11 26H2 정식 릴리스 (build 26300)
 GPU: NVIDIA GeForce RTX 4060 Laptop GPU (+ Intel UHD Graphics, 하이브리드/Optimus)
 
 원본 덤프 출처: C:\Windows\Minidump (호스트 자동 생성)
