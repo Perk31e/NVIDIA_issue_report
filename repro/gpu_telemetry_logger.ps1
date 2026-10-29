@@ -8,7 +8,8 @@
 param(
   [string]$OutDir = "C:\NVIDIA_issue_report\telemetry_logs",
   [int]$IntervalSec = 5,
-  [int]$RetentionDays = 21
+  [int]$RetentionDays = 21,
+  [int]$TopProcsEverySec = 30   # GPU Engine 카운터는 비싸서(코어 하나 70%) 이 간격으로만 갱신
 )
 $ErrorActionPreference = 'Continue'
 New-Item -ItemType Directory -Force $OutDir | Out-Null
@@ -38,15 +39,16 @@ function Get-TopGpuProcs {
     }) -join ' '
   } catch { "" }
 }
-function Get-AC {
-  try { Add-Type -Namespace Win32 -Name PW -MemberDefinition @'
+Add-Type -Namespace Win32 -Name PW -MemberDefinition @'
 [StructLayout(LayoutKind.Sequential)] public struct SPS { public byte AC; public byte Flag; public byte Pct; public byte Rsv; public int Life; public int Full; }
 [DllImport("kernel32.dll")] public static extern bool GetSystemPowerStatus(out SPS s);
-'@ -EA SilentlyContinue
-        $st=New-Object Win32.PW+SPS; [void][Win32.PW]::GetSystemPowerStatus([ref]$st)
+'@ -ErrorAction SilentlyContinue
+Add-Type -AssemblyName System.Windows.Forms -ErrorAction SilentlyContinue
+function Get-AC {
+  try { $st=New-Object Win32.PW+SPS; [void][Win32.PW]::GetSystemPowerStatus([ref]$st)
         if($st.AC -eq 1){"AC"}elseif($st.AC -eq 0){"BAT"}else{"?"} } catch { "?" }
 }
-function Get-DisplayCount { try { Add-Type -AssemblyName System.Windows.Forms -EA SilentlyContinue; [System.Windows.Forms.Screen]::AllScreens.Count } catch { "?" } }
+function Get-DisplayCount { try { [System.Windows.Forms.Screen]::AllScreens.Count } catch { "?" } }
 
 $q = 'temperature.gpu,utilization.gpu,utilization.memory,memory.used,memory.total,power.draw,enforced.power.limit,' +
      'clocks.current.sm,clocks.current.memory,pstate,clocks_event_reasons.active,' +
@@ -55,8 +57,10 @@ $header = "iso_time,temp_c,gpu_util,mem_util,mem_used_mib,mem_total_mib,power_w,
           "throttle_active,hw_thermal,sw_power_cap,hw_power_brake,ac,displays,foreground,top_gpu_procs"
 
 Write-Host "[logger] nvidia-smi=$smi interval=${IntervalSec}s out=$OutDir"
+$topProcs = ""; $topProcsAt = [datetime]::MinValue
 while($true){
   $now = Get-Date
+  if(($now - $topProcsAt).TotalSeconds -ge $TopProcsEverySec){ $topProcs = Get-TopGpuProcs; $topProcsAt = $now }
   $file = Join-Path $OutDir ("gpu_telemetry_{0:yyyyMMdd}.csv" -f $now)
   if(-not (Test-Path $file)){ Add-Content -LiteralPath $file -Value $header -Encoding utf8
     # 보존기간 지난 로그 정리
@@ -64,7 +68,7 @@ while($true){
   }
   $g = (& $smi --query-gpu=$q --format=csv,noheader,nounits 2>$null)
   if($g){ $g = ($g -replace '\s*,\s*',',').Trim() }
-  $line = "{0},{1},{2},{3},{4},{5}" -f $now.ToString('o'), $g, (Get-AC), (Get-DisplayCount), (Get-Foreground), (Get-TopGpuProcs)
+  $line = "{0},{1},{2},{3},{4},{5}" -f $now.ToString('o'), $g, (Get-AC), (Get-DisplayCount), (Get-Foreground), $topProcs
   try { Add-Content -LiteralPath $file -Value $line -Encoding utf8 } catch {}
   Start-Sleep -Seconds $IntervalSec
 }
