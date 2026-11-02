@@ -29,16 +29,29 @@ function Get-Foreground {
   try { $h=[Win32.FG]::GetForegroundWindow(); $p=0; [void][Win32.FG]::GetWindowThreadProcessId($h,[ref]$p)
         (Get-Process -Id $p -EA Stop).ProcessName } catch { "?" }
 }
-function Get-TopGpuProcs {
-  try {
-    $s = (Get-Counter '\GPU Engine(*)\Utilization Percentage' -EA Stop).CounterSamples | Where-Object { $_.CookedValue -gt 1 }
-    $byPid = @{}
-    foreach($x in $s){ if($x.InstanceName -match 'pid_(\d+)_'){ $pidn=[int]$Matches[1]; $byPid[$pidn]=[double]$byPid[$pidn]+$x.CookedValue } }
-    ($byPid.GetEnumerator() | Sort-Object Value -Descending | Select-Object -First 3 | ForEach-Object {
-        $nm=try{(Get-Process -Id $_.Key -EA Stop).ProcessName}catch{"pid$($_.Key)"}; "$nm=$([math]::Round($_.Value))%"
-    }) -join ' '
-  } catch { "" }
-}
+# GPU 점유 상위 프로세스: Get-Counter는 고부하 때 수십 초씩 걸려서(3DMark 중 샘플 간격 40~50초로 늘어남)
+# 메인 루프를 막지 않도록 별도 런스페이스에서 갱신하고, 메인 루프는 마지막 값만 읽는다.
+$shared = [hashtable]::Synchronized(@{ Top = "" })
+$topRs = [runspacefactory]::CreateRunspace(); $topRs.Open()
+$topPs = [powershell]::Create(); $topPs.Runspace = $topRs
+[void]$topPs.AddScript({
+  param($shared, $everySec)
+  while($true){
+    try {
+      $s = (Get-Counter '\GPU Engine(*)\Utilization Percentage' -EA Stop).CounterSamples | Where-Object { $_.CookedValue -gt 1 }
+      $byPid = @{}
+      foreach($x in $s){ if($x.InstanceName -match 'pid_(\d+)_'){ $pidn=[int]$Matches[1]; $byPid[$pidn]=[double]$byPid[$pidn]+$x.CookedValue } }
+      $shared.Top = ($byPid.GetEnumerator() | Sort-Object Value -Descending | Select-Object -First 3 | ForEach-Object {
+          $nm=try{(Get-Process -Id $_.Key -EA Stop).ProcessName}catch{"pid$($_.Key)"}; "$nm=$([math]::Round($_.Value))%"
+      }) -join ' '
+    } catch { }
+    Start-Sleep -Seconds $everySec
+  }
+}).AddArgument($shared).AddArgument($TopProcsEverySec)
+[void]$topPs.BeginInvoke()
+
+# 고부하(3DMark 등) 중에도 샘플링이 밀리지 않도록 우선순위를 한 단계 올린다
+try { (Get-Process -Id $PID).PriorityClass = 'AboveNormal' } catch {}
 Add-Type -Namespace Win32 -Name PW -MemberDefinition @'
 [StructLayout(LayoutKind.Sequential)] public struct SPS { public byte AC; public byte Flag; public byte Pct; public byte Rsv; public int Life; public int Full; }
 [DllImport("kernel32.dll")] public static extern bool GetSystemPowerStatus(out SPS s);
@@ -57,10 +70,9 @@ $header = "iso_time,temp_c,gpu_util,mem_util,mem_used_mib,mem_total_mib,power_w,
           "throttle_active,hw_thermal,sw_power_cap,hw_power_brake,ac,displays,foreground,top_gpu_procs"
 
 Write-Host "[logger] nvidia-smi=$smi interval=${IntervalSec}s out=$OutDir"
-$topProcs = ""; $topProcsAt = [datetime]::MinValue
+$nextAt = Get-Date
 while($true){
   $now = Get-Date
-  if(($now - $topProcsAt).TotalSeconds -ge $TopProcsEverySec){ $topProcs = Get-TopGpuProcs; $topProcsAt = $now }
   $file = Join-Path $OutDir ("gpu_telemetry_{0:yyyyMMdd}.csv" -f $now)
   if(-not (Test-Path $file)){ Add-Content -LiteralPath $file -Value $header -Encoding utf8
     # 보존기간 지난 로그 정리
@@ -68,7 +80,10 @@ while($true){
   }
   $g = (& $smi --query-gpu=$q --format=csv,noheader,nounits 2>$null)
   if($g){ $g = ($g -replace '\s*,\s*',',').Trim() }
-  $line = "{0},{1},{2},{3},{4},{5}" -f $now.ToString('o'), $g, (Get-AC), (Get-DisplayCount), (Get-Foreground), $topProcs
+  $line = "{0},{1},{2},{3},{4},{5}" -f $now.ToString('o'), $g, (Get-AC), (Get-DisplayCount), (Get-Foreground), $shared.Top
   try { Add-Content -LiteralPath $file -Value $line -Encoding utf8 } catch {}
-  Start-Sleep -Seconds $IntervalSec
+  # 고정 Sleep 대신 다음 예정 시각까지만 대기(샘플 처리 시간만큼 간격이 늘어나지 않게)
+  $nextAt = $nextAt.AddSeconds($IntervalSec)
+  $wait = ($nextAt - (Get-Date)).TotalMilliseconds
+  if($wait -gt 0){ Start-Sleep -Milliseconds ([int]$wait) } else { $nextAt = Get-Date }
 }
